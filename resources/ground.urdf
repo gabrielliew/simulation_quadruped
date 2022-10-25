@@ -8,14 +8,14 @@
             <inertia ixx="1.0" ixy="0" ixz="0" iyy="1.0" iyz="0" izz="1.0" />
         </inertial>
         <visual>
-            <origin xyz="0 -0.525 0" rpy="0 -0 0" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
                 <box size="10.0 0.05 10.0" />
             </geometry>
             <color rgba="${255/255} ${108/255} ${10/255} 1.0"/>
         </visual>
         <collision group="default">
-            <origin xyz="0 -0.525 0" rpy="0 -0 0" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
                 <box size="2.0 0.05 2.0" />
             </geometry>

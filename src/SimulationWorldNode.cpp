@@ -10,8 +10,8 @@ SimulationWorldNode::SimulationWorldNode(
   assert(world);
   assert(quadruped);
   Eigen::VectorXd balancedPose(18);
-  balancedPose << -1.570796, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
-      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0;
+  balancedPose << -1.570796, 0.0, 0.0, 0.0, 0.4, 0.0, 0.0, 0.6, -1.5, 0.0, 0.6,
+      -1.5, 0.0, 0.6, -1.5, 0.0, 0.6, -1.5;
   mQuadruped->setPositions(balancedPose);
   mInitialState =
       mQuadruped->getConfiguration(dart::dynamics::Skeleton::CONFIG_POSITIONS |
@@ -20,7 +20,7 @@ SimulationWorldNode::SimulationWorldNode(
 
 void SimulationWorldNode::customPreStep() {
   mExternalForce.setZero();
-  mQuadruped->setForces();
+  // mQuadruped->setForces();
   // Eigen::VectorXd
 }
 
