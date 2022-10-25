@@ -8,8 +8,8 @@
 SimulationWidget::SimulationWidget(dart::gui::osg::ImGuiViewer *viewer,
                                    SimulationWorldNode *node)
     : mViewer(viewer), mNode(node), mGuiGravityAcc(9.81f),
-      mGravityAcc(mGuiGravityAcc), mGuiHeadlights(true), mGuiControlMode(2),
-      mControlMode(2) {
+      mGravityAcc(mGuiGravityAcc), mGuiHeadlights(true), mGuiControlMode(1),
+      mControlMode(1) {
   // Do nothing
 }
 
@@ -60,9 +60,8 @@ void SimulationWidget::render() {
     if (ImGui::Checkbox("Headlights On/Off", &mGuiHeadlights)) {
       mViewer->switchHeadlights(mGuiHeadlights);
     }
-
   }
-
+  ImGui::Spacing();
   if (ImGui::CollapsingHeader("Options", ImGuiTreeNodeFlags_DefaultOpen)) {
     const auto reset = ImGui::Button("Reset");
     if (reset)
@@ -70,6 +69,24 @@ void SimulationWidget::render() {
 
     ImGui::Spacing();
   }
+  ImGui::RadioButton("No Control", &mGuiControlMode, 0);
+  ImGui::RadioButton("PD control", &mGuiControlMode, 1);
+  ImGui::RadioButton("MPC control", &mGuiControlMode, 2);
 
+  if (mGuiControlMode != mControlMode) {
+    switch (mGuiControlMode) {
+    case 0:
+      mNode->switchControlMode(0);
+      break;
+    case 1:
+      mNode->switchControlMode(1);
+      break;
+    case 2:
+      mNode->switchControlMode(2);
+      break;
+    }
+
+    mControlMode = mGuiControlMode;
+  }
   ImGui::End();
 }

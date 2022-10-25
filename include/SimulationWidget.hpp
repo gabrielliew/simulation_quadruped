@@ -28,14 +28,9 @@ protected:
   float mGravityAcc;
 
   bool mGuiHeadlights;
-
-  /// Control mode value for GUI
+  
   int mGuiControlMode;
 
-  /// Actual control mode
-  ///   - 0: No control
-  ///   - 1: Short-stride walking control
-  ///   - 1: Normal-stride walking control
   int mControlMode;
 };
 

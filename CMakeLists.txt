@@ -5,6 +5,7 @@ project(simulation_quadruped)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 set(required_components utils-urdf gui-osg)
 set(required_libraries dart dart-utils-urdf dart-gui-osg)
+set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
@@ -14,4 +15,4 @@ find_package(DART 6.12.2 REQUIRED COMPONENTS ${required_components} CONFIG)
 
 file(GLOB_RECURSE source_files "src/*.cpp")
 add_executable(dart_simulation ${source_files})
-target_link_libraries(dart_simulation PUBLIC ${required_libraries} Eigen3::Eigen)
+target_link_libraries(dart_simulation PUBLIC ${required_libraries} quadruped_control_library Eigen3::Eigen)
