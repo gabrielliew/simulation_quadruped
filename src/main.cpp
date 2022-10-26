@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
   ground->setName("ground");
   auto quadruped =
       loader.parseSkeleton("/home/liew/my_projects/simulation_quadruped/"
-                           "resources/mini_cheetah/mini_cheetah.urdf");
+                           "resources/mini_cheetah/mini_cheetah_skeleton.urdf");
   quadruped->setName("quadruped");
   
   dart::simulation::WorldPtr world =

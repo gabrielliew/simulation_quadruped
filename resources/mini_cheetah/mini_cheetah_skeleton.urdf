@@ -9,13 +9,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_body_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_body_collision.obj"/>
             </geometry>
             <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_body_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_body_collision.obj"/>
             </geometry>
             <origin rpy="0 0 0" xyz="0 0 0"/>
         </collision>
@@ -47,13 +47,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
             </geometry>
             <origin rpy="0.0 3.141592 -1.5708" xyz="-0.055 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
             </geometry>
             <origin rpy="0 3.141592 1.5708" xyz="-0.055 0 0"/>
         </collision>
@@ -84,13 +84,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
             </geometry>
             <origin rpy="3.141592 -1.5708 0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
             </geometry>
             <origin rpy="3.141592 -1.5708 0" xyz="0 0 0"/>
         </collision>
@@ -121,13 +121,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
             </geometry>
             <origin rpy="0.0 3.141592 0.0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
             </geometry>
             <origin rpy="0 3.141592 0" xyz="0 0 0"/>
         </collision>
@@ -145,7 +145,6 @@
             <geometry>
                 <sphere radius="0.015"/>
             </geometry>
-            <material name="darkgray"/>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -192,13 +191,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
             </geometry>
             <origin rpy="0. 0. -1.5708" xyz="-0.055 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
             </geometry>
             <origin rpy="0 0 -1.5708" xyz="-0.055 0 0"/>
         </collision>
@@ -229,13 +228,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
             </geometry>
             <origin rpy="0.0 -1.5708 0.0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
             </geometry>
             <origin rpy="0 -1.5708 0" xyz="0 0 0"/>
         </collision>
@@ -266,13 +265,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
             </geometry>
             <origin rpy="0.0 3.141592 0.0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
             </geometry>
             <origin rpy="0 3.141592 0" xyz="0 0 0"/>
         </collision>
@@ -290,7 +289,6 @@
             <geometry>
                 <sphere radius="0.015"/>
             </geometry>
-            <material name="darkgray"/>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -337,13 +335,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
             </geometry>
             <origin rpy="3.141592 3.141592  -1.5708" xyz="0.055 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
             </geometry>
             <origin rpy="3.141592 3.141592  1.5708" xyz="0.055 0 0"/>
         </collision>
@@ -374,13 +372,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
             </geometry>
             <origin rpy="3.141592 -1.5708 0.0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
             </geometry>
             <origin rpy="3.141592 -1.5708 0" xyz="0 0 0"/>
         </collision>
@@ -411,13 +409,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
             </geometry>
             <origin rpy="0.0 3.141592 0.0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
             </geometry>
             <origin rpy="0 3.141592 0" xyz="0 0 0"/>
         </collision>
@@ -435,7 +433,6 @@
             <geometry>
                 <sphere radius="0.015"/>
             </geometry>
-            <material name="darkgray"/>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -482,13 +479,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
             </geometry>
             <origin rpy="3.141592 0.0 -1.5708" xyz="0.055 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_abad_collision.obj"/>
             </geometry>
             <origin rpy="3.141592 0 -1.5708" xyz="0.055 0 0"/>
         </collision>
@@ -519,13 +516,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
             </geometry>
             <origin rpy="0.0 -1.5708 0.0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_upper_link_collision.obj"/>
             </geometry>
             <origin rpy="0 -1.5708 0" xyz="0 0 0"/>
         </collision>
@@ -556,13 +553,13 @@
         </inertial>
         <visual>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
             </geometry>
             <origin rpy="0.0 3.141592 0.0" xyz="0.0 0.0 0.0"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ros_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
+                <mesh filename="/home/liew/my_projects/simulation_quadruped/resources/mini_cheetah/meshes/mini_lower_link_collision.obj"/>
             </geometry>
             <origin rpy="0 3.141592 0" xyz="0 0 0"/>
         </collision>
@@ -580,7 +577,6 @@
             <geometry>
                 <sphere radius="0.015"/>
             </geometry>
-            <material name="darkgray"/>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
